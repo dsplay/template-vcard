@@ -1,0 +1,53 @@
+@import ../../styles/effects
+
+.dsplay-fit-text-ready
+  @include animation(fadeIn 1s ease-in)
+
+.flex
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center
+
+.center
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+.start
+  display: flex
+  flex-direction: column
+  align-items: start
+  justify-content: start
+
+.end
+  display: flex
+  flex-direction: column
+  align-items: end
+  justify-content: end
+
+.card
+  min-width: 25em
+  margin-top: -5rem
+  padding: 5rem  0.5rem 3em
+  border-radius: 1rem
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+  background: #fff
+  transition: 0.15s
+  -webkit-transition: 0.15s
+  -moz-transition: 0.15s
+  -ms-transition: 0.15s
+  -o-transition: 0.15s
+
+.cta-qrcode
+  max-width: 15em
+  height: 2.5em
+  margin: .7em 1em 0
+  overflow: hidden
+  text-overflow: clip
+  text-align: center
+  
+.z-avatar
+  z-index: 1
