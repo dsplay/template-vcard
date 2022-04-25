@@ -1,0 +1,19 @@
+@import ../../styles/effects
+
+.dsplay-fit-text-ready
+  @include animation(fadeIn 1s ease-in)
+.main-c-info
+  padding-top: 1em
+.c-info
+  max-width: 12em
+  margin: 0 1em
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: clip
+  .dsplay-fit-text-ready:nth-child(n + 2)
+    color: rgba(112, 128, 144, .87)
+    max-width: 10em
+  .c-info-hole
+    max-width: 10em
+    margin: auto
+
